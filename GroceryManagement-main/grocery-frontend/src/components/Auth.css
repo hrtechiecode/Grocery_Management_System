@@ -1,0 +1,96 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* ✅ BACKGROUND IMAGE */
+  background: url("../assets/Image.png") no-repeat center center;
+  background-size: cover;
+
+  position: relative;
+}
+
+/* DARK OVERLAY */
+.auth-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* BOX */
+.auth-box {
+  position: relative;
+  z-index: 1;
+
+  width: 360px;
+  padding: 30px;
+
+  background: rgba(255,255,255,0.92);
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+/* TITLE */
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* INPUT */
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+/* FOCUS */
+.auth-box input:focus {
+  border-color: #ff9900;
+  box-shadow: 0 0 5px rgba(255,153,0,0.4);
+}
+
+/* BUTTON */
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+
+  background: #ff9900;
+  color: white;
+  border: none;
+  border-radius: 8px;
+
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* HOVER */
+.auth-box button:hover {
+  background: #e68a00;
+}
+
+/* TEXT */
+.auth-box p {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/* LINK */
+.auth-box span {
+  color: #ff9900;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-box span:hover {
+  text-decoration: underline;
+}

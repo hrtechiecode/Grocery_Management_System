@@ -1,0 +1,105 @@
+
+/* MAIN CONTAINER */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+
+  /* BACKGROUND IMAGE */
+  background: url("../assets/Image.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* DARK OVERLAY */
+.login-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 0;
+}
+
+/* IMAGE (if used above login box) */
+.login-image {
+  width: 180px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+/* LOGIN BOX */
+.login-box {
+  position: relative;
+  z-index: 1;
+
+  width: 360px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+/* TITLE */
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* INPUTS */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+/* INPUT FOCUS */
+.login-box input:focus {
+  border-color: #ff9900;
+  box-shadow: 0 0 5px rgba(255, 153, 0, 0.4);
+}
+
+/* BUTTON */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #ff9900;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* BUTTON HOVER */
+.login-box button:hover {
+  background: #e68a00;
+}
+
+/* LINK TEXT */
+.login-link {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.login-link span {
+  color: #ff9900;
+  cursor: pointer;
+  font-weight: bold;
+}
