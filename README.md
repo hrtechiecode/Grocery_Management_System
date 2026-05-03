@@ -44,6 +44,20 @@ This project demonstrates a real-world e-commerce workflow with authentication, 
 ### Database
 - MySQL
 
+
+## 📸 Screenshots
+
+
+<img src="https://github.com/user-attachments/assets/2161212b-8eba-4b0c-8d4a-8b361d9fd383" width="700"/>
+
+
+<img src="https://github.com/user-attachments/assets/4b0d1f55-b44c-4d6e-a097-858292630355" width="700"/>
+
+<img src="https://github.com/user-attachments/assets/1379a882-5cbb-46ce-a276-3b8726ae2c32" width="700"/>
+
+
+<img src="https://github.com/user-attachments/assets/c79188cd-251e-4e8d-96a9-53cce58d876c" width="700"/>
+
 ---
 
 ## 📁 Project Structure
@@ -83,18 +97,6 @@ Secured API endpoints using Spring Security
 
 Role-based access (Admin/User)
 
-## 📸 Screenshots
-
-
-<img src="https://github.com/user-attachments/assets/2161212b-8eba-4b0c-8d4a-8b361d9fd383" width="700"/>
-
-
-<img src="https://github.com/user-attachments/assets/4b0d1f55-b44c-4d6e-a097-858292630355" width="700"/>
-
-<img src="https://github.com/user-attachments/assets/1379a882-5cbb-46ce-a276-3b8726ae2c32" width="700"/>
-
-
-<img src="https://github.com/user-attachments/assets/c79188cd-251e-4e8d-96a9-53cce58d876c" width="700"/>
 
 
 Login Page
