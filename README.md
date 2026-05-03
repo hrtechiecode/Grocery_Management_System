@@ -70,9 +70,9 @@ spring.datasource.url=jdbc:mysql://localhost:3306/grocery_db
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
-Run Spring Boot application:
-Run GroceryApplication.java
+
 🔹 Frontend Setup (React)
+
 cd GroceryManagement-main
 npm install
 npm start
@@ -80,16 +80,22 @@ npm start
 JWT token generated on login
 Token stored in local storage
 Secured API endpoints using Spring Security
+
 Role-based access (Admin/User)
-📸 Screenshots
 
-<img width="1340" height="635" alt="Screenshot 2026-05-03 125316" src="https://github.com/user-attachments/assets/2161212b-8eba-4b0c-8d4a-8b361d9fd383" />
-
-<img width="1346" height="625" alt="Screenshot 2026-05-03 125326" src="https://github.com/user-attachments/assets/4b0d1f55-b44c-4d6e-a097-858292630355" />
-<img width="1344" height="643" alt="Screenshot 2026-05-03 140440" src="https://github.com/user-attachments/assets/1379a882-5cbb-46ce-a276-3b8726ae2c32" />
+## 📸 Screenshots
 
 
-<img width="1335" height="648" alt="Screenshot 2026-05-03 141502" src="https://github.com/user-attachments/assets/c79188cd-251e-4e8d-96a9-53cce58d876c" />
+<img src="https://github.com/user-attachments/assets/2161212b-8eba-4b0c-8d4a-8b361d9fd383" width="700"/>
+
+
+<img src="https://github.com/user-attachments/assets/4b0d1f55-b44c-4d6e-a097-858292630355" width="700"/>
+
+<img src="https://github.com/user-attachments/assets/1379a882-5cbb-46ce-a276-3b8726ae2c32" width="700"/>
+
+
+<img src="https://github.com/user-attachments/assets/c79188cd-251e-4e8d-96a9-53cce58d876c" width="700"/>
+
 
 Login Page
 User Dashboard
